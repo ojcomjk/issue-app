@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+            content="width=device-width, initial-scale=1">
+<title>나의 첫 앱</title>
+</head>
+<body>
+<h1>나의 첫 번째 앱</h1>
+<p id="message">버튼을 눌러 보세요!</p>
+<button onclick="showMessage()">
+클릭하기
+</button>
+<script>
+function showMessage() {
+document.getElementById("message")
+.textContent = "앱이 정상적으로 실행되었습니다!";
+}
+</script>
+</body>
+</html>
